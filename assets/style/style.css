@@ -8,75 +8,70 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
-
 body{
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     background-color: #FDFBF7;
 }
-
 header{
     text-align: center;
 }
-
+.productos {
+    text-align: center;
+}
 .producto__container{
     text-align: center;
-    margin: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 8rem;
 }
-
 .section-title{
-    padding: 2rem;
     font-weight: bold;
+    text-align: center;
+    margin: 2rem;
 }
-
 .section-subtitle{
     color: #1B9AAA;
     font-family: 'Share Tech', sans-serif;
 }
-
 .producto__content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color:#fff;
-    padding: 0.625rem;
-    margin: 0.625rem;
-    height: 20.25rem;
-    width: 20.25rem;
+    padding: 0.6rem;
+    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
 }
-
-
-.producto__content  .producto__name{
+.producto__content .producto__name{
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
 .banner-crear-kit{
     background-color: #8FC1C8;
     padding: 6rem;
     text-align: center;
 }
-
 .banner__title{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding-bottom: 2rem;
 }
-
 .producto__precio{
     color: #1B9AAA;
     font-weight: bold;
     padding: 1rem;
 }
-
 .producto__detalle{
     font-size: 0.8rem;
 }
-
 footer{
     background-color: #fff;
 }
-
 footer .footer__copy{
     color: #D9D9D9;
     text-align: center;
