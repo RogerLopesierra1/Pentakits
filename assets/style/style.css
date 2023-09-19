@@ -1,0 +1,59 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+/*========== BASE ==========*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #FDFBF7;
+}
+
+header{
+    text-align: center;
+}
+
+.producto__container{
+    text-align: center;
+    margin: 6rem;
+}
+
+
+.producto__content{
+    background-color:#fff;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    height: 20.25rem;
+    width: 20.25rem;
+    border-radius: 5%;
+}
+
+
+.producto__content  .producto__name{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.banner-crear-kit{
+    background-color: #8FC1C8;
+    padding: 6rem;
+    text-align: center;
+}
+
+.banner__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
