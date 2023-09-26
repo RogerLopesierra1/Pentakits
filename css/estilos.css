@@ -1,0 +1,161 @@
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (min-width: 768px){
+    
+}
+
+@media only screen and (min-width: 1200px){
+    
+}
+*{
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.441em;
+}
+
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.953em;
+}
+
+h3 {
+    color: black;
+    font-size: 1.563em;
+    margin: 0px 800px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    color: #1B9AAA;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1.25em;
+}
+
+h5 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+h6 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+nav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 20vh;
+    top: 0px;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    display: flex;
+}
+
+.logo {
+    width: 10em;
+    position: relative;    
+    float: left;
+}
+
+.menu {
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    float: right;
+    position: relative;
+}
+
+.boton_menu {
+    margin: 3px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.items a{
+    margin: 20px;
+    color: black;
+}
+
+i{
+    margin: 0px; 
+    padding: 10px;
+}
+
+
+a:link{color: black;}
+.items a:hover{color: #1B9AAA;}
+a:active{color: #1B9AAA;}
+
+
+/*ACA EMPIEZA EL BODY*/
+
+/*No logro ponerle el borde redondeado probe crear una clase menu pero no me sale*/
+
+img{
+    width: 32em;
+    padding: 10px;
+}
+
+.galeria{
+    position: relative;
+    object-fit: cover;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+
+}
+
+.seccion1{
+    top: 550px;
+}
+.testimonios {
+    background-color: #8FC1C8;
+}
+
+/*
+.em1 {
+    font-size: 2.441em;
+}
+
+.em2 {
+    font-size: 1.953em;
+}
+
+.em3 {
+    font-size: 1.563em;
+}
+
+.em4 {
+    font-size: 1.25em;
+
+}
+
+.em5 {
+    font-size: 1em;
+}
+
+.em6 {
+    font-size: 0.8em;
+}
