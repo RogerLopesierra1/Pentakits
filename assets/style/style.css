@@ -8,23 +8,28 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
     background-color: #FDFBF7;
 }
+
 header{
     text-align: center;
 }
+
 .productos {
     text-align: center;
+    margin-left: 6rem;
+    margin-right: 5rem;
 }
+
 .producto__container{
-    text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 8rem;
+    /*grid-template-columns: repeat(3, 1fr);*/
 }
+
 .section-title{
     font-weight: bold;
     text-align: center;
@@ -34,18 +39,19 @@ header{
     color: #1B9AAA;
     font-family: 'Share Tech', sans-serif;
 }
+
 .producto__content{
     position: relative;
     display: flex;
     flex-direction: column;
     background-color:#fff;
-    padding: 0.6rem;
-    margin: 2rem;
     height: 20rem;
     width: 20rem;
     border-radius: 5%;
     box-shadow: 0 2px 4px rgba(3, 74, 40, 0.15);
+    margin: 1rem;
 }
+
 .producto__content .producto__name{
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -56,6 +62,7 @@ header{
     padding: 6rem;
     text-align: center;
 }
+
 .banner__title{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -66,12 +73,15 @@ header{
     font-weight: bold;
     padding: 1rem;
 }
+
 .producto__detalle{
     font-size: 0.8rem;
 }
+
 footer{
     background-color: #fff;
 }
+
 footer .footer__copy{
     color: #D9D9D9;
     text-align: center;
