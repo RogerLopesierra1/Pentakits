@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registro</title>
+  <link rel="stylesheet" href="../estilos/register.css">
+</head>
+<body>
+  <h1>Formulario de registro</h1>
+  <p>Introduce la información requerida</p>
+  <form method="post" action='#'>
+    <fieldset>
+      <label for="first-name">Ingresa tus nombres: 
+        <input id="first-name" name="first-name" type="text" required />
+        <span class="error-message" id="first-name-error"></span>
+      </label>
+      <label for="last-name">Ingresa tus apellidos: 
+        <input id="last-name" name="last-name" type="text" required />
+        <span class="error-message" id="last-name-error"></span>
+      </label>
+      <label for="email">Ingresa tu correo electrónico: 
+        <input id="email" name="email" type="email" required />
+        <span class="error-message" id="email-error"></span>
+      </label>
+      <label for="new-password-1">Crea tu contraseña: 
+        <input id="new-password-1" name="new-password-1" type="password" pattern="[a-z0-5]{8,}" required />
+        <span class="error-message" id="new-password-1-error"></span>
+      </label>
+      <label for="new-password-2">Confirma tu contraseña: 
+        <input id="new-password-2" name="new-password-2" type="password" pattern="[a-z0-5]{8,}" required />
+        <span class="error-message" id="new-password-2-error"></span>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="personal-account">
+        <input id="personal-account" type="radio" name="account-type" class="inline" checked/> Cuenta personal
+      </label>
+      <label for="business-account">
+        <input id="business-account" type="radio" name="account-type" class="inline" /> Cuenta de negocio
+      </label>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto los <a href="#">términos y condiciones</a>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="profile-picture">Carga tu identificación: 
+        <input id="profile-picture" type="file" name="file" />
+      </label>
+      <label for="age">Ingresa tu edad (años): 
+        <input id="age" type="number" name="age" min="18" max="120" />
+        <span class="error-message" id="age-error"></span>
+      </label>
+    </fieldset>
+    <input type="submit" value="Submit" />
+  </form>
+
+  <script src="../js/register.js"></script>
+    
+  
+</body>
+</html>
