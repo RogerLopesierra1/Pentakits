@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>registro</title>
-  <link rel="stylesheet" href="../estilos/register.css">
+  <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
   <h1>Formulario de registro</h1>
@@ -24,11 +24,11 @@
         <span class="error-message" id="email-error"></span>
       </label>
       <label for="new-password-1">Crea tu contraseña: 
-        <input id="new-password-1" name="new-password-1" type="password" pattern="[a-z0-5]{8,}" required />
+        <input id="new-password-1" name="new-password-1" type="password" pattern="[a-z0-9]{8,}" required />
         <span class="error-message" id="new-password-1-error"></span>
       </label>
       <label for="new-password-2">Confirma tu contraseña: 
-        <input id="new-password-2" name="new-password-2" type="password" pattern="[a-z0-5]{8,}" required />
+        <input id="new-password-2" name="new-password-2" type="password" pattern="[a-z0-9]{8,}" required />
         <span class="error-message" id="new-password-2-error"></span>
       </label>
     </fieldset>
@@ -52,7 +52,9 @@
         <span class="error-message" id="age-error"></span>
       </label>
     </fieldset>
-    <input type="submit" value="Submit" />
+    <input type="submit" value="register" />
+    <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión aquí</a></p>
+    
   </form>
 
   <script src="../js/register.js"></script>

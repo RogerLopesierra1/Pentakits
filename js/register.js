@@ -1,4 +1,4 @@
-const firstNameInput = document.getElementById('first-name');
+    const firstNameInput = document.getElementById('first-name');
     const lastNameInput = document.getElementById('last-name');
     const emailInput = document.getElementById('email');
     const newPassword1Input = document.getElementById('new-password-1');
@@ -9,13 +9,7 @@ const firstNameInput = document.getElementById('first-name');
     function showError(input, message) {
       const errorSpan = document.getElementById(input.id + '-error');
       errorSpan.textContent = message;
-    }
-
-    // Función para mostrar mensajes de error
-    function showError(input, message) {
-      const errorSpan = document.getElementById(input.id + '-error');
-      errorSpan.textContent = message;
-    }
+    }    
 
     // Función para validar el nombre
     function validateName(input) {
