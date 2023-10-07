@@ -222,11 +222,44 @@ header{
     padding: 10px;
 }
 
+/*BANNER*/
+
+.banner-crear-kit{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+
+.banner__subtitle{
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    margin: 10px;
+}
+
+.banner__title{
+    margin: 10px;
+}
+
+.banner__button{
+    color: #1B9AAA;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid #1B9AAA;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
 /*FOOTER*/
 
 
-footer{
+.footer{
     background-color: #ffff;
     width: 100%;
     color: black;
+
 }
