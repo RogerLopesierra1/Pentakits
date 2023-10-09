@@ -1,5 +1,5 @@
 @media only screen and (min-width: 600px){
-
+ 
 }
 
 @media only screen and (min-width: 768px){
@@ -9,23 +9,15 @@
 @media only screen and (min-width: 1200px){
     
 }
+
+/* No se como colocar esto de diseño responsivo*/
 *{
     margin: 0;
     text-align: center;
     box-sizing: border-box;
 }
 
-h1 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.441em;
-}
 
-h2 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.953em;
-}
 
 h3 {
     color: black;
@@ -35,24 +27,6 @@ h3 {
     border: 1px solid black;
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
-}
-
-h4 {
-    color: #1B9AAA;
-    font-family: 'Share Tech', sans-serif;
-    font-size: 1.25em;
-}
-
-h5 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-}
-
-h6 {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
 }
 
 nav{
@@ -93,7 +67,7 @@ nav{
 }
 
 .items a{
-    margin: 20px;
+    margin: 10px;
     color: black;
 }
 
@@ -108,12 +82,8 @@ a:link{color: black;}
 a:active{color: #1B9AAA;}
 
 
-/*ACA EMPIEZA EL BODY*/
-
-/*No logro ponerle el borde redondeado probe crear una clase menu pero no me sale*/
-
 img{
-    width: 32em;
+    width: 60em;
     padding: 10px;
 }
 
@@ -127,35 +97,111 @@ img{
 
 }
 
-.seccion1{
-    top: 550px;
-}
-.testimonios {
-    background-color: #8FC1C8;
+.sección1{
+    width: 100%;
+    height: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-content: center;
 }
 
-/*
-.em1 {
+.productos{
+    width: 100%;
+    height: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.producto{
+    border: 2px solid black;
+    height: 290px;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+.titulosec{
+    color: #1B9AAA;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 1.25em;
+}
+
+.subtitulosec{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.441em;
+    font-weight: bold;
+}
+.comentariosec{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
 }
 
-.em2 {
+.vermas{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titulosec2{
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.953em;
 }
 
-.em3 {
-    font-size: 1.563em;
+.seccion3{
+    width: 100%;
+    height: 80%;
+    margin: 0px auto;
+    background-color: #8FC1C8;
+    display: flex;
+    align-content: center;
 }
 
-.em4 {
+.titulosec3{
+    color: #ffffff;
+    background-color: #8FC1C8 ;
+    font-family: 'Share Tech', sans-serif;
     font-size: 1.25em;
-
 }
 
-.em5 {
-    font-size: 1em;
+.subtitulosec3{
+    color: #ffffff;
+    background-color: #8FC1C8 ;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.953em;
 }
 
-.em6 {
+.testimonios{
+    width: 100%;
+    height: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.testimonio{
+    border: 2px solid black;
+    height: 390px;
+    width: 350px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.8em;
 }
