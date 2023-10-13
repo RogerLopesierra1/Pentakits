@@ -1,0 +1,248 @@
+/*===== GOOGLE FONTS =====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Share+Tech&display=swap');
+
+/*========== GLOBALES ==========*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDFBF7;
+    color: #0000;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* HEADER */
+
+header{
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.nav {
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav img{
+    width: 100px;
+    align-items: center;
+    
+}
+.menu_list{
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.list-item{
+    display: inline-block;
+    list-style: none;;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    position: relative;
+
+}
+
+.link::after{
+    content:"";
+    width: 0;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+
+}
+
+.link:hover::after{
+    width: 100%;
+    right: 0
+}
+
+.boton_menu{
+    font-size: 14px;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.boton_menu:hover{
+    background-color: #1B9AAA;
+    border: 1px solid #1B9AAA;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .5s;
+}
+
+
+/* MAIN */
+
+.containers-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px;
+}
+
+.container-item{
+    border-radius: 10px;
+    text-align: center;
+    transition: all .5s;
+    margin: 10px 0  20px 0;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.container-item img{
+    min-width: 350px;
+    min-height: 300px;
+    max-width: 350px;
+    max-height: 300px;
+    object-fit: cover; /*adapta la imgen y lo centra*/
+    border-radius: 10px;
+}
+
+.container-item:hover{
+    transform: scale(1.1);
+}
+
+.info-producto{
+    line-height: 1; /*iterlineado*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.producto-precio{
+    font-size: 18px;
+    font-weight: 900;
+    color: #1B9AAA;
+    text-align: center;
+    
+}
+
+.producto-description{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    min-height: 50px;
+}
+
+.producto-name{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 10px;
+    min-height: 30px;
+}
+
+.info-producto .btn-ver-mas{
+    border: none;
+    background: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.info-producto .btn-ver-mas:hover{
+    background-color: #1B9AAA;
+    border: 1px solid #1B9AAA;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.section-title{
+    color: black;
+    margin: 15px
+}
+
+.section-subtitle{
+    font-family: 'Share Tech', sans-serif;
+    color: #1B9AAA;
+}
+
+
+.banner-crear-kit{
+    width: 100%;
+    background-color: #8FC1C8;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.container-titulos{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*BANNER*/
+
+.banner-crear-kit{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+
+.banner__subtitle{
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.banner__title{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.banner__a{
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #ffff;
+    width: 100%;
+    color: black;
+
+}
+
