@@ -254,31 +254,41 @@ li .link{
 
 /* SECCIÓN BANNER PRODUCTOS */
 
-.banner-crear-kit{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+.seccion-banner{
+    padding: 100px;
+    background-color: #8FC1C8;
 }
-
 
 .banner__subtitle{
     font-family: 'Share Tech', sans-serif;
-    color: #fff;
-    margin: 10px;
+    color: #000;
     font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .banner__title{
-    margin: 10px;
-    font-size: 30px;
+    padding: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
 }
 
-.banner__a{
-    color: #ffffff;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 900;
+.seccion-banner a{
+    border: #FFF solid 1px;
+    color: #fff;
 }
+
+.seccion-banner a:hover{
+    border: #FFF solid 1px;
+    color: #000;
+    background-color: #FFF;
+    transition: all .5s;
+
+}
+
 
 /* MAIN SOBRE NOSOTROS */
 
@@ -330,6 +340,7 @@ div .imagen-sobreNosotros{
     color: #fff;
     text-align: center;
     padding: 100px;
+    width: 100%;
 }
 
 .pretitulo-equipo{
@@ -482,6 +493,8 @@ div .imagen-sobreNosotros{
 footer{
     background-color: #FFF;
     padding: 100px;
+    height: 500px;
+    width: 100%;
 }
 
 .seccion-superior-footer{
@@ -637,18 +650,6 @@ form input{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN HOME */
 
 .producto img{
@@ -728,57 +729,106 @@ form input{
     color: #1B9AAA;
     font-family: 'Share Tech', sans-serif;
     font-size: 1.25em;
+    padding-top: 4em;
 }
     
 .subtitulosec{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.441em;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+
 }
 .comentariosec{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding-top: 2em;
 }
-    
+
+.seccion2 .comentariosec{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 2em;
+}
+
+.boton_crearkit{
+    width: 316px;
+    height: 62px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .vermas{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 600;
     text-decoration: underline;
+    font-style: normal;
+}
+
+.vermas:hover{
+    color: #1B9AAA;
+    transition: all .5s;
 }
     
 .titulosec2{
     color: black;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.953em;
+    font-size: 40px;
+    line-height: normal;
+    font-style: normal;
+    padding: 10px;
 }
-    
+
+.seccion2{
+    text-align: center;
+    margin: 100px;
+    color: #000;
+}
+.seccion-testimonio{
+    background-color: #8FC1C8;
+    padding: 100px;
+}
+
 .seccion3{
     width: 100%;
     height: 80%;
     margin: 0px auto;
-    background-color: #8FC1C8;
     display: flex;
     align-content: center;
 }
     
 .titulosec3{
     color: #ffffff;
-    background-color: #8FC1C8 ;
     font-family: 'Share Tech', sans-serif;
-    font-size: 1.25em;
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 400;
+    text-align: center;
 }
     
 .subtitulosec3{
     color: #ffffff;
-    background-color: #8FC1C8 ;
-    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.953em;
+    font-size: 40px;
+    text-align: center;
+    line-height: normal;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
     
 .testimonios{
@@ -821,8 +871,9 @@ form input{
 .textotestimonio p{
     color: #000000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
+    font-size: 14px;
     text-align: justify;
+    padding: 10px;
 }
     
 .textotestimonio h2{
