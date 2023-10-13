@@ -156,14 +156,15 @@ li .link{
     border-radius: 10px;
     text-align: center;
     transition: all .5s;
-    margin: 10px 0  20px 0;
+    margin: 10px 0  10px 0;
     background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 20px;
 }
 
 .container-item img{
-    min-width: 350px;
-    min-height: 300px;
+    min-width: 250px;
+    min-height: 250px;
     max-width: 350px;
     max-height: 300px;
     object-fit: cover; /*adapta la imagen y lo centra*/
@@ -295,28 +296,36 @@ li .link{
 .sobreNosotros{
     color: #000000;
     padding: 100px;
-    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
-div .imagen-sobreNosotros{
+.container-sobreNosotros{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.imagen-sobreNosotros{
+    margin-top: 5em;
+    margin-left: 7.5em;
     background-color: #fff;
     border-radius: 50%;
     width: 400px;
     height: 400px;
-    margin-top: 200px;
-    position: relative;
+    box-shadow: 0px 4px 4px 0px #8FC1C8;
 }
 
 .imagen-sobreNosotros img{
     width: 250px;
     text-align: center;
-    margin-top: 5em;
+    margin-top: 6em;
 }
 
 .titulo-nosotros{
     color: #1B9AAA;
     font-family: 'Share Tech', sans-serif;
-    text-align: center;
+    text-align: start;
     font-size: 48px;
     font-weight: 400;
     line-height: normal;
@@ -333,6 +342,11 @@ div .imagen-sobreNosotros{
     width: 600px;
     display: flex;
     float: right;
+}
+
+.container-texto-sobreNosotros{
+    margin-left: 15em;
+    margin-top: 10em;
 }
 
 .seccion-equipo{
@@ -408,10 +422,10 @@ div .imagen-sobreNosotros{
 
 
 .seccion-historia{
-    margin: 100px;
+    padding: 100px;
     text-align: center;
     background-color: #FDFBF7;
-    height: 50em;
+    height: 70em;
 }
 
 .pretitulo-historia{
@@ -435,6 +449,7 @@ div .imagen-sobreNosotros{
     line-height: normal;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 
@@ -449,7 +464,7 @@ div .imagen-sobreNosotros{
 
 }
 
-.container1-historia .container1-texto-historia{
+.container1-texto-historia{
     width: 587px;
     height: 259px;
     color: #000;
@@ -459,7 +474,6 @@ div .imagen-sobreNosotros{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .container2-historia{
@@ -486,6 +500,7 @@ div .imagen-sobreNosotros{
     line-height: normal;
     
 }
+
 
     
 /*FOOTER*/
@@ -694,6 +709,7 @@ form input{
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
     
 
