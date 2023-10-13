@@ -12,33 +12,28 @@
 
 4. Estructura del Sitio:
    
-o	Home
-o	Sobre Nosotros
-o	Productos 
-	 Detalle del producto
-o	Contacto
-o	Login
-o	Registro
+- Home
+- Sobre Nosotros
+- Productos 
+- Detalle del producto
+- Contacto
+- Login
+- Registro
 
-5. Diseño y Estilo:
-   
-•	Estilo visual
-•	Colores:  
-•	Tipografía: Montserrat y Share Tech
 
 7. Contenido y Funcionalidades:
 
 8. Responsabilidades del Equipo:
    
-•	Diseño y Scrum Master: Lourdes Paloma Herrera
-•	Contenido: Paola Cantero
-•	Desarrollo:
-o	Header: Cantero Paola
-o	Footer: Joaquín Castaño
-o	Home: Cantero Paola
-o	Sobre Nostros: Joaquín Castaño
-o	Productos: Lourdes  Paloma Herrera
-o	Contacto y Login: Roger Rafael Lopesierra Olivera
+#Diseño y Scrum Master: Lourdes Paloma Herrera
+#Contenido: Paola Cantero
+#Desarrollo:
+#Header: Cantero Paola
+#Footer: Joaquín Castaño
+#Home: Cantero Paola
+#Sobre Nostros: Joaquín Castaño
+#Productos: Lourdes  Paloma Herrera
+#Contacto y Login: Roger Rafael Lopesierra Olivera
 
 8. Cronograma Tentativo:
    
