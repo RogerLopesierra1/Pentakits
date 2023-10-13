@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PentaKits</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/style/style.css">
+  <script src="https://kit.fontawesome.com/58af08b7ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <a href="../index.html"><img src="../assets/images/logo.png" alt="logo-pentakits"></a>
+        <div class="menu_list">
+            <ul>
+                <li class="list-item"><a class="link" href="../index.html">Inicio</a></li>
+                <li class="list-item"><a class="link" href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="list-item"><a class="link" href="productos.html">Productos</a></li>
+                <li class="list-item"><a class="link" href="contacto.html">Contacto</a></li>
+                <li class="list-item"><a class="boton_menu" href="crearKit.html">Crear Kit</a></li>
+                <li class="list-item"><a class="boton_menu" href="login.html">Iniciar Sesión</a></li>
+                <i class="fa-regular fa-cart-shopping"></i>
+            </ul>
+        </div>
+    </nav>
+</header>
+  <h1>Formulario de registro</h1>
+  <p>Introduce la información requerida</p>
+  <form method="post" action='#'>
+    <fieldset>
+      <label for="first-name">Ingresa tus nombres: 
+        <input id="first-name" name="first-name" type="text" required />
+        <span class="error-message" id="first-name-error"></span>
+      </label>
+      <label for="last-name">Ingresa tus apellidos: 
+        <input id="last-name" name="last-name" type="text" required />
+        <span class="error-message" id="last-name-error"></span>
+      </label>
+      <label for="email">Ingresa tu correo electrónico: 
+        <input id="email" name="email" type="email" required />
+        <span class="error-message" id="email-error"></span>
+      </label>
+      <label for="new-password-1">Crea tu contraseña: 
+        <input id="new-password-1" name="new-password-1" type="password" pattern="[a-z0-9]{8,}" required />
+        <span class="error-message" id="new-password-1-error"></span>
+      </label>
+      <label for="new-password-2">Confirma tu contraseña: 
+        <input id="new-password-2" name="new-password-2" type="password" pattern="[a-z0-9]{8,}" required />
+        <span class="error-message" id="new-password-2-error"></span>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="personal-account">
+        <input id="personal-account" type="radio" name="account-type" class="inline" checked/> Cuenta personal
+      </label>
+      <label for="business-account">
+        <input id="business-account" type="radio" name="account-type" class="inline" /> Cuenta de negocio
+      </label>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto los <a href="#">términos y condiciones</a>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="profile-picture">Carga tu identificación: 
+        <input id="profile-picture" type="file" name="file" />
+      </label>
+      <label for="age">Ingresa tu edad (años): 
+        <input id="age" type="number" name="age" min="18" max="120" />
+        <span class="error-message" id="age-error"></span>
+      </label>
+    </fieldset>
+    <input type="submit" value="register" />
+    <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión aquí</a></p>
+    
+  </form>
+
+  <script src="../js/register.js"></script>
+    
+  <footer>
+    <div class="seccion-superior-footer">
+
+        <img src="../assets/images/logo.png" alt="logo-pentakits">
+        <p class="texto-footer">PentaKits: Inspirando mentes, construyendo futuros.</p>
+        <form action="form-suscribir" method="post">
+            <input type="email" placeholder="Email" >
+            <button class="button_suscribir" id="sub">Suscribirse</button>
+        </form>
+
+        
+    </div>
+
+    <div class="container-nav-footer">
+        <div class="footer-nav">
+            <h3>Compania</h3>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h3>Ayuda</h3>
+            <ul>
+                <li><a href="#">Centro de Ayuda</a></li>
+                <li><a href="#">Soporte</a></li>
+                <li><a href="#">Legal</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h3>Terminos</h3>
+            <ul>
+                <li><a href="#">Térmios y Condiciones</a></li>
+                <li><a href="#">Politicas de Privacidad</a></li>
+            </ul>
+        </div>
+    </div>
+     
+    <div class="footer-links">
+        <hr>
+        <p class="footer__copy">&#169; Copyright 2023 Pentakits | All rights reserved</p>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+
+    </div>
+
+</footer>
+</body>
+</html>

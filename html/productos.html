@@ -5,17 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../assets/style/style.css">
-        <!-- ICONS -->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <!-- FAVICON -->
         <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
-        <script src="https://kit.fontawesome.com/987662cc86.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/58af08b7ae.js" crossorigin="anonymous"></script>
         <title>PentaKits</title>
     </head>
 <body>
     <header>
         <nav class="nav">
-            <img src="../assets/images/logo.png" alt="logo-pentakits">
+            <a href="../index.html"><img src="../assets/images/logo.png" alt="logo-pentakits"></a>
             <div class="menu_list">
                 <ul>
                     <li class="list-item"><a class="link" href="../index.html">Inicio</a></li>
@@ -24,26 +22,9 @@
                     <li class="list-item"><a class="link" href="contacto.html">Contacto</a></li>
                     <li class="list-item"><a class="boton_menu" href="crearKit.html">Crear Kit</a></li>
                     <li class="list-item"><a class="boton_menu" href="login.html">Iniciar Sesión</a></li>
+                    <i class="fa-solid fa-bag-shopping"></i>
                 </ul>
             </div>
-
-            <div class="container-icon">
-                <div class="count-productos">
-                    <span id="contador-productos">0</span>
-                </div>
-                <div class="conrainer-cart-productos hidden-cart">
-                    <div class="cart-product">
-                        <div class="info-cart-producto">
-                            <span class="cantidad-producto-carrito">1</span>
-                            <p class="titulo-produto-carrito">Kit IKO</p>
-                            <span class="precio-producto-carrito">$50000</span>
-
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-
         </nav>
     </header>
 </body>
@@ -113,6 +94,7 @@
                     <a href="detalle-producto.html" class="btn-ver-mas" >Ver más </a>
                 </div>
             </div>
+            
             <div class="container-item">
                 <figure>
                     <img src="../assets/images/Iko-inicial.jpg" alt="">
@@ -129,15 +111,13 @@
 
         
         <div class="container-titulos">
-
-
-        <h2 class="section-title">Kits de Nivel Primario</h2>
-        <span class="section-subtitle">La herramienta ideal para que los niños de primaria exploren la tecnología y la robótica de manera divertida y educativa.</span>
-
+            <h2 class="section-title">Kits de Nivel Primario</h2>
+            <span class="section-subtitle">La herramienta ideal para que los niños de primaria exploren la tecnología y la robótica de manera divertida y educativa.</span>
         </div>
 
 
         <div class="containers-items">
+
             <div class="container-item">
                 <figure>
                     <img src="../assets/images/MakeBlock Portada.jpg" alt="producto">
@@ -196,6 +176,7 @@
                     <a href="detalle-producto.html" class="btn-ver-mas" >Ver más </a>
                 </div>
             </div>
+
             <div class="container-item">
                 <figure>
                     <img src="../assets/images/MakeBlock Portada.jpg" alt="producto">
@@ -305,8 +286,61 @@
     </section>
 
     <footer>
-
         
+        <div class="seccion-superior-footer">
+            <img src="../assets/images/logo.png" alt="logo-pentakits">
+            <p class="texto-footer">PentaKits: Inspirando mentes, construyendo futuros.</p>
+            <div class="form-suscribir">
+                <form action="" method="post">
+                    <input type="email" placeholder="Email" >
+                    <button class="button_suscribir" id="sub">Suscribirse</button>
+                </form>
+            </div> 
+        </div>
+
+        <div class="container-nav-footer">
+            
+            <div class="footer-nav">
+                <h3>Compania</h3>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#">Centro de Ayuda</a></li>
+                    <li><a href="#">Soporte</a></li>
+                    <li><a href="#">Legal</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3>Terminos</h3>
+                <ul>
+                    <li><a href="#">Térmios y Condiciones</a></li>
+                    <li><a href="#">Politicas de Privacidad</a></li>
+                </ul>
+            </div>
+       </div>
+
+  
+         
+        <div class="footer-links">
+            <hr>
+            <p class="footer__copy">&#169; Copyright 2023 Pentakits | All rights reserved</p>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+
+        </div>
+
     </footer>
       
 </html>
