@@ -1,4 +1,5 @@
 /*===== GOOGLE FONTS =====*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Share+Tech&display=swap');
 
 /*========== GLOBALES ==========*/
@@ -20,34 +21,25 @@ img{
     max-width: 100%;
 }
 
-.icon-cart{
-    width: 30px;
-    height: 30px;
-}
-
-.icon-close{
-    width: 40px;
-    height: 40px;
-}
 
 /* HEADER */
 
 header{
-    margin: 20px;
+    margin-top: 20px;
     text-align: center;
     position: relative;
 }
 
 .nav {
-    max-width: 1024px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .nav img{
     width: 100px;
     align-items: center;
+    
 }
 .menu_list{
     margin-top: 20px;
@@ -107,19 +99,13 @@ header{
 }
 
 
-
-
-
 /* MAIN */
 
 .containers-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-left:100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .container-item{
@@ -133,10 +119,10 @@ header{
 
 
 .container-item img{
-    min-width: 400px;
-    min-height: 400px;
-    max-width: 400px;
-    max-height: 400px;
+    min-width: 350px;
+    min-height: 300px;
+    max-width: 350px;
+    max-height: 300px;
     object-fit: cover; /*adapta la imgen y lo centra*/
     border-radius: 10px;
 }
@@ -176,7 +162,7 @@ header{
     min-height: 30px;
 }
 
-.info-producto button{
+.info-producto .btn-ver-mas{
     border: none;
     background: none;
     border: 1px solid black;
@@ -184,9 +170,12 @@ header{
     padding: 15px 10px;
     cursor: pointer;
     border-radius: 50px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
 }
 
-.info-producto button:hover{
+.info-producto .btn-ver-mas:hover{
     background-color: #1B9AAA;
     border: 1px solid #1B9AAA;
     border-radius: 50px;
@@ -241,21 +230,14 @@ header{
     font-size: 30px;
 }
 
-.banner__button{
-    color: #1B9AAA;
-    font-size: 14px;
-    border-radius: 20px;
-    border: 1px solid #1B9AAA;
-    width: 100px;
-    height: 50px;
+.banner__a{
+    color: #ffffff;
+    font-size: 20px;
     text-decoration: none;
-    justify-content: center;
-    padding-top: 15px;
+    font-weight: 900;
 }
 
-
 /*FOOTER*/
-
 
 .footer{
     background-color: #ffff;
@@ -263,3 +245,4 @@ header{
     color: black;
 
 }
+
