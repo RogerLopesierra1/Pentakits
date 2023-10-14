@@ -307,17 +307,14 @@ li .link{
 }
 
 .imagen-sobreNosotros{
-    margin-top: 5em;
-    margin-left: 7.5em;
-    background-color: #fff;
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
-    box-shadow: 0px 4px 4px 0px #8FC1C8;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    
 }
 
 .imagen-sobreNosotros img{
-    width: 250px;
+    width: 400px;
     text-align: center;
     margin-top: 6em;
 }
