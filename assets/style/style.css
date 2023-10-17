@@ -636,14 +636,14 @@ form{
 }
 
 form input{
-    border: none;
-    padding: 24px;
+    border: #D9D9D9 solid 1px;
+    padding: 10px;
     outline: none;
     color: #9795B5;
-    border-radius: 50px;
+    border-radius: 10px;
     display: flex;
     width: 419px;
-    height: 66px;
+    height: 60px;
     gap: 240px;
     background-color: #F5F5F5;
     text-align: start;
@@ -654,12 +654,12 @@ form input{
     color: #9795B5;
     padding-left: 20px;
     text-align: start;
+    font-weight: 200;
 }
 
 .form-suscribir{
     display: flex;
 }
-
 
 
 /* MAIN HOME */
@@ -898,16 +898,176 @@ form input{
         
 }
 
-    /* MEDIA QUERIES RESPONSIVE */
+/* SECCIÓN 404 */
 
-    @media only screen and (min-width: 600px){
+.titulo-error-404{
+    color: #8FC1C8;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-imagen-404{
+    text-align: center;
+    padding: 20px;
+}
+
+/* SECCIÓN CREAR KIT */
+
+.titulo-crearKit{
+    text-align: center;
+    color: #8FC1C8;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    float: left;
+    margin-left: 15em;
+    margin-top: 6em;
+}
+
+.container-crearKit-img{
+    display: flex;
+    position: relative;
+    float: right;
+    padding-right: 17em;
+}
+
+.container-crearKit{
+    padding: 20px;
+    height: 50em;
+}
+
+/* SECCIÓN CONTACTO*/
+
+
+.container-imagen-contacto{
+    display: flex;
+    position: relative;
+    float: right;
+    padding-right: 17em;
+}
+
+.container-contacto{
+    padding: 20px;
+    height: 50em;
+}
+
+.container-form-contacto{
+    padding-left: 100px;
+    margin-left: 17em;
+    margin-top: 3em;
+}
+.pretitulo-contacto{
+    color: #8FC1C8;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.titulo-contacto{
+    color: #1B9AAA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.container-form-contacto ::placeholder{
+    color: #8FC1C8;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+form textarea{
+    border: #D9D9D9 solid 1px;
+    padding: 10px;
+    outline: none;
+    color: #9795B5;
+    border-radius: 10px;
+    display: flex;
+    width: 419px;
+    height: 60px;
+    gap: 240px;
+    background-color: #F5F5F5;
+    text-align: start;
+    margin-bottom: 2em;
+}
+
+.container-form-contacto button{
+    border-radius: 20px;
+    border: 2px solid #000;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 153px;
+    height: 54px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 8.5em;
+}
+
+.container-form-contacto button:hover{
+    background-color: #1B9AAA;
+    border: #1B9AAA solid 1px;
+    color: #FFF;
+    transition: all .5s;
+
+}
+
+/* LOGIN */
+
+
+
+/* REGISTRO */
+
+
+
+/* CARRITO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES RESPONSIVE */
+
+@media only screen and (min-width: 600px){
  
-    }
+}
     
-    @media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){
         
-    }
+}
     
-    @media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px){
         
-    }
+}
