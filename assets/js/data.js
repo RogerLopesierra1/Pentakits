@@ -1,27 +1,3 @@
-// Array de fotos
-
-let fotos = [
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-    "../assets/images/Iko-inicial.jpg",
-]
-
-//Array de Objetos
-
 let data = [
     {
         "id": 1,
@@ -38,7 +14,7 @@ let data = [
         "precio": 50000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Cuerpo 1.png",
+        "image": "../assets/images/kinderbot-inicial.jpg",
         "nivel": 1
     },
     {
@@ -56,7 +32,7 @@ let data = [
         "precio": 50000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Cuerpo 3.png",
+        "image": "../assets/images/producto_4_inicial.png",
         "nivel": 1
     },
     {
@@ -65,7 +41,7 @@ let data = [
         "precio": 50000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/kinderbot-inicial.jpg",
+        "image": "../assets/images/producto_5_inicial.png",
         "nivel": 1
     },
     {
@@ -74,16 +50,16 @@ let data = [
         "precio": 50000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Portada 2.png",
         "nivel": 1
-    },
+    },    
     {
         "id": 7,
         "titulo": "Kit MakeBlock",
         "precio": 50000,
         "descripcion": "Kit STEAM de robótica basado en Arduino",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Lego Spike Expansion Detalle 1.jpg",
+        "image": "../assets/images/MakeBlock Portada.jpg",
         "nivel": 2
     },
     {
@@ -92,7 +68,7 @@ let data = [
         "precio": 88000,
         "descripcion": "Placa base basada en Arduino Mega 2560 con 10 puertos de expansión",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Mis Ladrillos Kit 504 Portada.jpg",
+        "image": "../assets/images/productos_2_primario.png",
         "nivel": 2
     },
     {
@@ -101,7 +77,7 @@ let data = [
         "precio": 98000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Portada 2.png",
+        "image": "../assets/images/producto_3_primario.png",
         "nivel": 2
     },
     {
@@ -110,7 +86,7 @@ let data = [
         "precio": 99000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Mis Ladrillos Kit 503 Portada.jpg",
+        "image": "../assets/images/producto_4_primario.png",
         "nivel": 2
     },
     {
@@ -119,7 +95,7 @@ let data = [
         "precio": 150000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Portada 2.png",
+        "image": "../assets/images/producto_5_primario.png",
         "nivel": 2
     },
     {
@@ -128,7 +104,7 @@ let data = [
         "precio": 250000,
         "descripcion": "2 el ladrillo inteligente",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/producto_6_primario.png",
         "nivel": 2
     },
     {
@@ -137,7 +113,7 @@ let data = [
         "precio": 50000,
         "descripcion": "Kit STEAM de robótica basado en Arduino",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/ArduinoPortada 1 .png",
         "nivel": 3
     },
     {
@@ -146,7 +122,7 @@ let data = [
         "precio": 88000,
         "descripcion": "Placa base basada en Arduino Mega 2560 con 10 puertos de expansión",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Mis Ladrillos Kit 504 Portada.jpg",
         "nivel": 3
     },
     {
@@ -155,7 +131,7 @@ let data = [
         "precio": 98000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Lego Spike Expansion Detalle 1.jpg",
         "nivel": 3
     },
     {
@@ -164,7 +140,7 @@ let data = [
         "precio": 99000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Lego Spike Detalle 1.jpg",
         "nivel": 3
     },
     {
@@ -173,7 +149,7 @@ let data = [
         "precio": 150000,
         "descripcion": "Programación física con tarjetas. App para programar.",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Cuerpo 3.png",
         "nivel": 3
     },
     {
@@ -182,9 +158,9 @@ let data = [
         "precio": 250000,
         "descripcion": "2 el ladrillo inteligente",
         "descripcionDetallada":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.",
-        "image": "../assets/images/Iko-inicial.jpg",
+        "image": "../assets/images/Mis Ladrillos Kit 503 Portada.jpg",
         "nivel": 3
-    },
+    }
     
 
 ]

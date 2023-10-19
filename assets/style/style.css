@@ -152,7 +152,9 @@ li .link{
 }
 
 /* MAIN PRODUCTOS */
-
+.section-productos{
+    padding: 100px;
+}
 .containers-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -171,10 +173,10 @@ li .link{
 }
 
 .container-item img{
-    min-width: 250px;
+    min-width: 150px;
     min-height: 250px;
     max-width: 350px;
-    max-height: 300px;
+    max-height: 250px;
     object-fit: cover; /*adapta la imagen y lo centra*/
     border-radius: 10px;
 }
@@ -1025,6 +1027,7 @@ form textarea{
     border-radius: 20px;
     border: 1px solid #8FC1C8;
     color: #8FC1C8;
+    background-color: #FFF;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     width: 153px;

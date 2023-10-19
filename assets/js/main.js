@@ -1,3 +1,5 @@
+// PRODUCTOS DINAMICA 
+
 let productosInicial = `<div class="container-titulos">
                             <h2 class="section-title">Kits de Nivel Inicial</h2>
                             <span class="section-subtitle">¡La introducción perfecta al mundo de la robótica educativa para los más pequeños!</span>
@@ -70,7 +72,7 @@ for(let producto of data){
     if(producto.nivel === 3){
         productosSecundario =  productosSecundario +  `<div class="container-item">
                                                             <figure>
-                                                                <img src="${producto.image}" alt="${producto.titulo+'/'+producto.id}">
+                                                                <img src="${producto.image}" alt="${producto.titulo}">
                                                             </figure>
                                                             <div class="info-producto">
                                                                 <h2 class="producto-name">${producto.titulo}</h2>
@@ -89,4 +91,18 @@ productosSecundario += `</div>`;
 document.querySelector(".productos-inicial").innerHTML = productosInicial;
 document.querySelector(".productos-primario").innerHTML = productosPrimario;
 document.querySelector(".productos-secundario").innerHTML =  productosSecundario;
+
+
+// DETALLE PRODUCTO 
+
+
+
+
+
+
+
+
+
+// CARRITO DE COMPRAS
+
 

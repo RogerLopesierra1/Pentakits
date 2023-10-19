@@ -15,7 +15,6 @@ function validarContacto(){
     if(!empty(nombre) && !empty(apellido) && !empty(email) && !empty(mensaje)){
 
 
-
     }else{
         alert("El formulario esta vacio. Debe completarlo para poder eviarlo.")
     }
