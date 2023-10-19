@@ -142,6 +142,14 @@ li .link{
     transition: all .5s;
 }
 
+.boton_traduccion{
+    text-decoration: none;
+    color: #000;
+}
+
+.boton_traduccion:hover{
+    color: #1B9AAA;
+}
 
 /* MAIN PRODUCTOS */
 
@@ -530,11 +538,12 @@ footer{
     display: flex;
     position: absolute;
     margin-top: 10em;
+    padding-top: 20px;
 }
 
 hr{
     background-color: #D9D9D9;
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .footer-links{
@@ -637,9 +646,11 @@ form{
 
 form input{
     border: #D9D9D9 solid 1px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 16px;
     padding: 10px;
     outline: none;
-    color: #9795B5;
+    color: #1B9AAA;
     border-radius: 10px;
     display: flex;
     width: 419px;
@@ -648,10 +659,11 @@ form input{
     background-color: #F5F5F5;
     text-align: start;
     margin-bottom: 2em;
+    font-weight: 600;
 }
 
 ::placeholder{
-    color: #9795B5;
+    color: #1B9AAA;
     padding-left: 20px;
     text-align: start;
     font-weight: 200;
@@ -659,6 +671,8 @@ form input{
 
 .form-suscribir{
     display: flex;
+    position: relative;
+    padding-left: 3em;
 }
 
 
@@ -946,17 +960,21 @@ form input{
     position: relative;
     float: right;
     padding-right: 17em;
+    margin-top: 2em;
 }
 
 .container-contacto{
     padding: 20px;
-    height: 50em;
+    height: 1000px;
 }
 
 .container-form-contacto{
     padding-left: 100px;
     margin-left: 17em;
     margin-top: 3em;
+    display: flex;
+    position: relative;
+    float: left;
 }
 .pretitulo-contacto{
     color: #8FC1C8;
@@ -980,31 +998,33 @@ form input{
 .container-form-contacto ::placeholder{
     color: #8FC1C8;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 16px;
     font-style: normal;
     line-height: normal;
 }
 
 form textarea{
     border: #D9D9D9 solid 1px;
+    font-family: 'Share Tech', sans-serif;
     padding: 10px;
     outline: none;
-    color: #9795B5;
+    color: #1B9AAA;
     border-radius: 10px;
     display: flex;
     width: 419px;
-    height: 60px;
+    height: 250px;
     gap: 240px;
     background-color: #F5F5F5;
     text-align: start;
     margin-bottom: 2em;
+    font-size: 16px;
 }
 
 .container-form-contacto button{
     border-radius: 20px;
-    border: 2px solid #000;
-    color: #000;
+    border: 1px solid #8FC1C8;
+    color: #8FC1C8;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     width: 153px;
@@ -1014,6 +1034,7 @@ form textarea{
     align-items: center;
     gap: 10px;
     margin-left: 8.5em;
+    font-weight: 600;
 }
 
 .container-form-contacto button:hover{

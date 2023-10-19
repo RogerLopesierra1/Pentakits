@@ -12,28 +12,13 @@
 </head>
 <body>
 
-    <header>
-        <nav class="nav">
-            <a href="../index.html"><img src="../assets/images/logo.png" alt="logo-pentakits"></a>
-            <div class="menu_list">
-                <ul>
-                    <li class="list-item"><a class="link" href="../index.html">Inicio</a></li>
-                    <li class="list-item"><a class="link" href="sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li class="list-item"><a class="link" href="productos.html">Productos</a></li>
-                    <li class="list-item"><a class="link" href="contacto.html">Contacto</a></li>
-                    <li class="list-item"><a class="boton_menu" href="crearKit.html">Crear Kit</a></li>
-                    <li class="list-item"><a class="boton_menu" href="login.html">Iniciar Sesión</a></li>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <header></header>
     <section>
         <div class="container-contacto">
             <span class="pretitulo-contacto">Sigamos en Contacto</span>
             <h1 class="titulo-contacto">Contacto</h1>
             <div class="container-imagen-contacto">
-                <svg width="500" height="525" viewBox="0 0 703 725" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg width="600" height="625" viewBox="0 0 703 725" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <path d="M677.962 230.826C758.994 349.371 622.002 627.623 503.457 708.656C384.912 789.688 269.496 529.417 90.5678 455.494C-172.339 315.423 213.054 102.858 331.599 21.8257C450.144 -59.207 596.929 112.28 677.962 230.826Z" fill="#ACC6C9"/>
                     <rect x="220" y="117" width="345" height="456" fill="url(#pattern0)"/>
                     <defs>
@@ -46,71 +31,18 @@
             </div>
             <div class="container-form-contacto">
                 <form action="contacto" method="post">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                    <input type="email" placeholder="Email">
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button class="btn-enviarContacto">Enviar</button>
+                    <input type="text" placeholder="Nombre" id="nombre-contacto">
+                    <input type="text" placeholder="Apellido" id="apellido-contacto">
+                    <input type="email" placeholder="Email" id="email-contacto">
+                    <textarea name="mensaje-contacto" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="reset" id="btn-enviarContacto" class="btn-enviarContacto">Enviar</button>
                 </form>
             </div>
         </div>
     </section>
-    <footer>
-        
-        <div class="seccion-superior-footer">
-            <img src="../assets/images/logo.png" alt="logo-pentakits">
-            <p class="texto-footer">PentaKits: Inspirando mentes, construyendo futuros.</p>
-            <div class="form-suscribir">
-                <form action="" method="post">
-                    <input type="email" placeholder="Email" >
-                    <button class="button_suscribir" id="sub">Suscribirse</button>
-                </form>
-            </div> 
-        </div>
-
-        <div class="container-nav-footer">
-            
-            <div class="footer-nav">
-                <h3>Compania</h3>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <div class="footer-nav">
-                <h3>Ayuda</h3>
-                <ul>
-                    <li><a href="#">Centro de Ayuda</a></li>
-                    <li><a href="#">Soporte</a></li>
-                    <li><a href="#">Legal</a></li>
-                </ul>
-            </div>
-            <div class="footer-nav">
-                <h3>Terminos</h3>
-                <ul>
-                    <li><a href="#">Térmios y Condiciones</a></li>
-                    <li><a href="#">Politicas de Privacidad</a></li>
-                </ul>
-            </div>
-       </div>
-
-  
-         
-        <div class="footer-links">
-            <hr>
-            <p class="footer__copy">&#169; Copyright 2023 Pentakits | All rights reserved</p>
-            <ul>
-                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-            </ul>
-
-        </div>
-
-    </footer>
+    <footer></footer>
 </body>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/footer.js"></script>
+    <script src="../assets/js/forms.js"></script>
 </html>
