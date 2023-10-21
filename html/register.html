@@ -13,53 +13,33 @@
   <header></header>
   <h1>Formulario de registro</h1>
   <p>Introduce la información requerida</p>
-  <form method="post" action='#'>
-    <fieldset>
-      <label for="first-name">Ingresa tus nombres: 
-        <input id="first-name" name="first-name" type="text" required />
-        <span class="error-message" id="first-name-error"></span>
-      </label>
-      <label for="last-name">Ingresa tus apellidos: 
-        <input id="last-name" name="last-name" type="text" required />
-        <span class="error-message" id="last-name-error"></span>
-      </label>
-      <label for="email">Ingresa tu correo electrónico: 
-        <input id="email" name="email" type="email" required />
-        <span class="error-message" id="email-error"></span>
-      </label>
-      <label for="new-password-1">Crea tu contraseña: 
-        <input id="new-password-1" name="new-password-1" type="password" pattern="[a-z0-9]{8,}" required />
-        <span class="error-message" id="new-password-1-error"></span>
-      </label>
-      <label for="new-password-2">Confirma tu contraseña: 
-        <input id="new-password-2" name="new-password-2" type="password" pattern="[a-z0-9]{8,}" required />
-        <span class="error-message" id="new-password-2-error"></span>
-      </label>
-    </fieldset>
-    <fieldset>
-      <label for="personal-account">
-        <input id="personal-account" type="radio" name="account-type" class="inline" checked/> Cuenta personal
-      </label>
-      <label for="business-account">
-        <input id="business-account" type="radio" name="account-type" class="inline" /> Cuenta de negocio
-      </label>
-      <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Acepto los <a href="#">términos y condiciones</a>
-      </label>
-    </fieldset>
-    <fieldset>
-      <label for="profile-picture">Carga tu identificación: 
-        <input id="profile-picture" type="file" name="file" />
-      </label>
-      <label for="age">Ingresa tu edad (años): 
-        <input id="age" type="number" name="age" min="18" max="120" />
-        <span class="error-message" id="age-error"></span>
-      </label>
-    </fieldset>
-    <input type="submit" value="register" />
-    <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión aquí</a></p>
-    
-  </form>
+  <div class="register-form-container">
+    <div class="register-form-content">
+      <form method="post" action='#'>
+        <fieldset>
+          <label for="first-name">Ingresa tus nombres: 
+            <input id="first-name" name="first-name" type="text" required />
+            <span class="error-message" id="first-name-error"></span>
+          </label>
+          <label for="last-name">Ingresa tus apellidos: 
+            <input id="last-name" name="last-name" type="text" required />
+            <span class="error-message" id="last-name-error"></span>
+          </label>
+          <label for="email">Ingresa tu correo electrónico: 
+            <input id="email" name="email" type="email" required />
+            <span class="error-message" id="email-error"></span>
+          </label>      
+        </fieldset>    
+        
+        <input type="submit" value="register" />
+        <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión aquí</a></p>
+        
+      </form>
+    </div>
+    <div class="register-form-info">
+      <img src="https://placehold.co/600x400/EEE/31343C" alt="image">
+    </div>
+  </div>
 
   <script src="../js/register.js"></script>
     

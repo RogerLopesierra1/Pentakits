@@ -1049,7 +1049,30 @@ form textarea{
 }
 
 /* LOGIN */
-
+.login-form-container,
+.register-form-container {
+    display: flex;
+    padding: 2em;
+}
+.login-form-container form,
+.register-form-container form {
+    position: relative;
+}
+.login-form-container form label,
+.login-form-container p,
+.register-form-container form label,
+.register-form-container p {
+    color: rgb(232, 230, 227);
+}
+.login-form-container .login-form-content,
+.register-form-container .register-form-content {
+    flex: 1;
+}
+.login-form-container .login-form-info,
+.register-form-container .register-form-info {
+    flex: 1;
+    color: rgb(232, 230, 227);
+}
 
 
 /* REGISTRO */
