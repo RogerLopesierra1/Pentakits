@@ -151,6 +151,23 @@ li .link{
     color: #1B9AAA;
 }
 
+
+#selectLanguage{
+    background: none;
+    border: #000 solid 1px;
+    color: #000;
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
 /* MAIN PRODUCTOS */
 .section-productos{
     padding: 100px;
