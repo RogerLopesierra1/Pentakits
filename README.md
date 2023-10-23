@@ -23,7 +23,9 @@ Docentes de diferentes asignaturas que aplican la robótica en sus clases.
 
 # Contenido y Funcionalidades:
 
-- Responsabilidades del Equipo:
+- Contenido: Diseño tentativo de la página web (https://drive.google.com/file/d/1-nMIgJoxkOMAmYgsYLJfiaFfppH_7HbG/view)
+
+- Funcionalidades: Búsqueda de Kits, Formulario de registro y acceso a la página.
    
 # Diseño y Scrum Master: 
 
@@ -35,18 +37,10 @@ Paola Cantero
 
 # Desarrollo:
 
-Header: Cantero Paola
-
-Footer: Joaquín Castaño
-
-Home: Cantero Paola
-
-Sobre Nostros: Joaquín Castaño
-
-Productos: Lourdes  Paloma Herrera
-
-Contacto y Login: Roger Rafael Lopesierra Olivera
-
+- Header y Home: Cantero Paola
+- Footer y Sobre Nosotros: Joaquín Castaño
+- Productos, Contacto y Detalle de producto: Lourdes Paloma Herrera
+- Registro y Login: Roger Rafael Lopesierra Olivera
 
 # Cronograma Tentativo:
    
@@ -60,6 +54,8 @@ Desarrollo y programación: 3 semanas
 # Recursos Externos:
    
 Uso de Figma para la creación del diseño Web.
+
+Integración de Formspree para el formulario de Contacto y Login.
 
 # Desarrollos Futuros y Mejoras Potenciales (Opcional)
     
