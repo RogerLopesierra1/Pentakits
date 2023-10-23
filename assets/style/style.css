@@ -982,6 +982,15 @@ form input{
     margin-top: 2em;
 }
 
+.container-imagen-contacto img{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    position: static;
+    float: right;
+    padding-left: 10px;;
+}
+
 .container-contacto{
     padding: 20px;
     height: 1000px;

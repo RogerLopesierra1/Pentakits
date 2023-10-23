@@ -41,7 +41,7 @@ function getIdiomas(){
 
         oldLanguage =  selectLanguage.value;
 
-    });
+    }).catch(error => alert('Ha ocurrido un error con la API de Idiomas', error))
 }
 
 
