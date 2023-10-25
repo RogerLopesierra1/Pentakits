@@ -127,7 +127,7 @@ li .link{
     font-size: 14px;
     border: 1px solid black;
     color: black;
-    padding: 15px 10px;
+    padding: 10px 10px;
     cursor: pointer;
     border-radius: 50px;
     text-decoration: none;
@@ -156,9 +156,9 @@ li .link{
     background: none;
     border: #000 solid 1px;
     color: #000;
-    height: 50px;
+    height: 40px;
     width: 120px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50px;
 }
 
