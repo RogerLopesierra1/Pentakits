@@ -1100,6 +1100,35 @@ form textarea{
     color: rgb(232, 230, 227);
 }
 
+#iniciar_sesion {
+    width: 161px;
+    height: 38px;
+    border-radius: 20px;
+    margin-left: 130px;
+    padding-left: 40px;   
+}
+
+#register {
+    width: 146px;
+    height: 38px;
+    border-radius: 20px;
+    margin-left: 73px;
+    padding-left: 50px;   
+}
+
+#iniciar_sesion::placeholder, 
+#register::placeholder {
+    background-color: #F5F5F5;
+    color: #8FC1C8;
+}
+
+.login-form-content a{
+    margin-left: 15px;        
+}
+
+.login-form-container p{
+    
+}
 
 /* REGISTRO */
 

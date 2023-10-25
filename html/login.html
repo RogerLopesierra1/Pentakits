@@ -7,6 +7,7 @@
   <!-- FAVICON -->
   <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="../assets/style/style.css">
+  <!-- <script src="https://example.com/fontawesome/v6.4.2/js/all.js" data-auto-a11y="true" ></script> -->
   <script src="https://kit.fontawesome.com/58af08b7ae.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,21 +29,26 @@
 </header>
   <h1>Iniciar Sesión</h1>
   <div class="login-form-container">
+    <div class="login-form-info">
+      <img src="../assets/images/robot_login.png" alt="image">
+    </div>
     <div class="login-form-content">
       <form method="post" action='#'>
-        <label for="email">Correo Electrónico: 
-          <input id="email" name="email" type="email" required />
+        <label for="email">
+          <input id="email" name="email" type="email" placeholder="digite su nombre o email aqui" required />
         </label>
-        <label for="password">Password: 
-          <input id="password" name="password" type="password" required />
+        <label for="password"> 
+          <input id="password" name="password" type="password" placeholder="digite su contrasena aqui" required />
         </label>
-        <input type="submit" value="Iniciar Sesión" />
+        <input type="submit" id="iniciar_sesion" value="Iniciar Sesión" />
       </form>
-      <p>¿Aún no tienes una cuenta? <a href="register.html">Regístrate aquí</a></p>
+      <div><a href="#">he olvidado mi contraseña</a> <a href="register.html">Regístrate aquí</a></div>
+      
+              
+      <i class="fa-brands fa-facebook"></i>      
+      
     </div>
-    <div class="login-form-info">
-      <img src="https://placehold.co/600x400/EEE/31343C" alt="image">
-    </div>
+    
   </div>
 
 
@@ -51,5 +57,4 @@
   <script src="../assets/js/header.js"></script>
   <script src="../assets/js/footer.js"></script>
   <script src="../assets/js/forms.js"></script>
-  <script src="../assets/js/translate.js"></script>
 </html>

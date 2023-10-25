@@ -17,27 +17,31 @@
     <div class="register-form-content">
       <form method="post" action='#'>
         <fieldset>
-          <label for="first-name">Ingresa tus nombres: 
-            <input id="first-name" name="first-name" type="text" required />
+          <label for="first-name"> 
+            <input id="first-name" name="first-name" type="text" placeholder="nombre" required />
             <span class="error-message" id="first-name-error"></span>
           </label>
-          <label for="last-name">Ingresa tus apellidos: 
-            <input id="last-name" name="last-name" type="text" required />
+          <label for="last-name">
+            <input id="last-name" name="last-name" type="text" placeholder="apellido" required />
             <span class="error-message" id="last-name-error"></span>
           </label>
-          <label for="email">Ingresa tu correo electrónico: 
-            <input id="email" name="email" type="email" required />
+          <label for="email">
+            <input id="email" name="email" type="email" placeholder="email" required />
+            <span class="error-message" id="email-error"></span>
+          </label>      
+          <label for="email">
+            <input id="email" name="email" type="email" placeholder="password" required />
             <span class="error-message" id="email-error"></span>
           </label>      
         </fieldset>    
         
-        <input type="submit" value="register" />
+        <input id="register" type="submit" value="register" />
         <p>¿Ya tienes una cuenta? <a href="./login.html">Inicia sesión aquí</a></p>
         
       </form>
     </div>
     <div class="register-form-info">
-      <img src="https://placehold.co/600x400/EEE/31343C" alt="image">
+      <img src="../assets/images/robot_register.png" alt="image">
     </div>
   </div>
 
@@ -48,5 +52,4 @@
   <script src="../assets/js/header.js"></script>
   <script src="../assets/js/footer.js"></script>
   <script src="../assets/js/forms.js"></script>
-  <script src="../assets/js/translate.js"></script>
 </html>
