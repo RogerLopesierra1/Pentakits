@@ -63,8 +63,6 @@ Desarrollo y programación: 4 semanas
    
 - Uso de Figma para la creación del diseño Web.
 - Integración de EmailJS para el envío de formulario de Contacto y Suscripción.
-- Integración de EmailJS para envío de formulario.
-
 
 # Desarrollos Futuros y Mejoras Potenciales (Opcional)
     
