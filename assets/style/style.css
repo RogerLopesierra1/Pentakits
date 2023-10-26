@@ -190,9 +190,9 @@ li .link{
 }
 
 .container-item img{
-    min-width: 150px;
+    min-width: 250px;
     min-height: 250px;
-    max-width: 350px;
+    max-width: 250px;
     max-height: 250px;
     object-fit: cover; /*adapta la imagen y lo centra*/
     border-radius: 10px;
@@ -280,6 +280,7 @@ li .link{
     padding: 10px;
 }
 
+
 /* SECCIÓN BANNER PRODUCTOS */
 
 .seccion-banner{
@@ -316,6 +317,113 @@ li .link{
     transition: all .5s;
 
 }
+
+
+/*  DETALLE PRODUCTO  */
+
+.productos-relacionados{
+    padding: 100px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+
+.containers-productos-relacionados{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 3em;
+}
+
+.producto-relacionado{
+    border-radius: 10px;
+    text-align: center;
+    transition: all .5s;
+    margin: 10px 0  10px 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 90%;
+}
+
+.producto-relacionado:hover{
+    transform: scale(1.1);
+}
+
+.titulo-productos-relacionados{
+    color: #1B9AAA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.titulo-producto-relacionado a{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em;
+
+}
+
+.titulo-producto-relacionado a:hover{
+    color: #1B9AAA;
+    transition: all .5s;
+}
+
+.subtitulo-producto-realcionado{
+    color: #8FC1C8;
+    font-size: 14px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.titulo-detalle-producto{
+    color: #1B9AAA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 2em;
+    text-align: center;
+}
+
+.container-img{
+    display: flex;
+    position: relative;
+    margin-left: 4em;
+    padding-left: 20px;
+}
+
+.compartir-detalle-producto{
+    display: flex;
+    position: relative;
+    margin-left: 5em;
+    padding-left: 20px;
+    justify-content: left;
+}
+
+.compartir-detalle-producto ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-top: 10px;
+}
+
+.container-precio-producto{
+    color: #000;
+    display: flex;
+    position: relative;
+}
+
+
+.detalle-producto{
+    padding: 100px;
+}
+
 
 
 /* MAIN SOBRE NOSOTROS */
@@ -744,6 +852,7 @@ form input{
     
 .producto:hover{
     transform: scale(1.1);
+    transition: all .5s;
 }
 
 .textoproducto{
@@ -1004,7 +1113,7 @@ form input{
     margin-left: 17em;
     margin-top: 3em;
     display: flex;
-    position: relative;
+    position: absolute;
     float: left;
 }
 .pretitulo-contacto{
@@ -1076,6 +1185,9 @@ form textarea{
     transition: all .5s;
 
 }
+
+
+
 
 /* LOGIN */
 .login-form-container,

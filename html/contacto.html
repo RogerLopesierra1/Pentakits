@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/style/style.css">
     <script src="https://kit.fontawesome.com/58af08b7ae.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
 
@@ -19,15 +20,14 @@
                 <span class="pretitulo-contacto">Sigamos en Contacto</span>
                 <h1 class="titulo-contacto">Contacto</h1>
                 <div class="container-imagen-contacto">
-                    <img src="../assets/images/imagen-contacto.png" alt="" srcset="">    
-                </div>
+                    <img src="../assets/images/imagen-contacto.svg" alt="" srcset="">    
+                </div> 
                 <div class="container-form-contacto">
-                    <form action="contacto" method="post">
-                        <input type="text" placeholder="Nombre" id="nombre-contacto" required>
-                        <input type="text" placeholder="Apellido" id="apellido-contacto" required>
-                        <input type="email" placeholder="Email" id="email-contacto" required>
-                        <textarea name="mensaje-contacto" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-                        <button type="submit" id="btn-enviarContacto" class="btn-enviarContacto">Enviar</button>
+                    <form action="contacto" method="post" id="formContacto">
+                        <input type="text" placeholder="Nombre y Apellido" id="from_name" name="from_name" required>
+                        <input type="email" placeholder="Email" id="email_id"  name="email_id"  required>
+                        <textarea cols="30" rows="10" placeholder="Mensaje" name="message" id="message" required></textarea>
+                        <button type="reset" id="buttonContacto" class="btn-enviarContacto" onclick="sendEmail()">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -38,6 +38,10 @@
 </body>
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/footer.js"></script>
-    <script src="../assets/js/forms.js"></script>
+    <script src="../assets/js/form.js"></script>
     <script src="../assets/js/translate.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('IDOfSu4uXfwVpmxIV')
+    </script>
 </html>

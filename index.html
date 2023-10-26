@@ -25,7 +25,9 @@
                     <li class="list-item"><a class="boton_menu" href="./html/crearKit.html">Crear Kit</a></li>
                     <li class="list-item"><a class="boton_menu" href="./html/login.html">Iniciar Sesión</a></li>
                     
-                    <select name="language-select" id="selectLanguage"></select>
+                    <select name="language-select" id="selectLanguage">
+                        <option>Spanish</option>
+                    </select>
                     
                     <i class="fa-solid fa-cart-shopping"></i>
                     
@@ -149,9 +151,9 @@
             <img src="../assets/images/logo.png" alt="logo-pentakits">
             <p class="texto-footer">PentaKits: Inspirando mentes, construyendo futuros.</p>
             <div class="form-suscribir">
-                <form action="" method="post">
-                    <input type="email" placeholder="Email" id="email-suscripcion">
-                    <button class="button_suscribir" id="sub">Suscribirse</button>
+                <form action="" method="post" id="formSuscripcion">
+                    <input type="email" placeholder="Email" id="email_suscripcion" name="email_suscripcion" required>
+                    <button type="reset" id="btn-suscripcion" class="button_suscribir" onclick="sendSuscriber()">Suscribirse</button>
                 </form>
             </div> 
         </div>
@@ -199,6 +201,10 @@
 
     </footer>
 </body>
-    <script src="assets/js/forms.js"></script>
+    <script src="assets/js/form.js"></script>
     <script src="assets/js/translate.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('IDOfSu4uXfwVpmxIV')
+    </script>
 </html>

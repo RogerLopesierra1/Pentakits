@@ -15,18 +15,37 @@
 
     <main>
         <section class="detalle-producto">
-        
-            <div class="container-img">
-                <img src="../assets/images/Iko-inicial.jpg" alt="detalle-producto">
-            </div>
-            
+    
             <div class="container-info-producto">
+                <h2 class="titulo-detalle-producto">Producto 1</h2>
+                <div class="container-img">
+                    <img src="../assets/images/Iko-inicial.jpg" alt="detalle-producto">
+                </div>
                 <div class="container-precio-producto">
                     <span>$50000</span>
+                    <span>USD 45</span>
+                </div>
+                <div class="container-input-cantidad">
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" name="cantidad" id="cantidad">
+                    <button type="submit">Agregar al carrito</button>
                 </div>
                 <div class="container-detalles-producto">
                    <p class="detalle-producto-decripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet expedita ea obcaecati delectus molestiae voluptas dolorum rerum soluta perferendis deleniti, tempore voluptate libero aliquid et ut hic maiores labore.</p>
                 </div>
+            </div>
+
+            div
+
+            <div class="compartir-detalle-producto">
+                <span class="titulo-compartir">Compartir</span>
+                <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
             </div>
     
         </section>
@@ -36,29 +55,34 @@
             <h2 class="titulo-productos-relacionados">Productos Relacionados</h2>
     
             <div class="containers-productos-relacionados">
+
                 <div class="producto-relacionado">
                     <div class="imagen-producto-relacionado">
-                        <img src="../assets/images/Lego Spike Detalle 1.jpg" alt="">
+                        <img src="../assets/images/producto_3_inicial.png" alt="">
                     </div>
-                    <h1 class="titulo-producto-relacionado"><a href="">Producto</a></h1>
+                    <h1 class="titulo-producto-relacionado"><a href="detalle-producto.html">Producto</a></h1>
+                    <span class="subtitulo-producto-realcionado">Programación física con tarjetas. App para programar.</span>
                 </div>
-            </div>
-            <div class="containers-productos-relacionados">
+
+            
+            
+
                 <div class="producto-relacionado">
                     <div class="imagen-producto-relacionado">
-                        <img src="../assets/images/Lego Spike Detalle 1.jpg" alt="">
+                        <img src="../assets/images/producto_3_primario.png" alt="">
                     </div>
-                    <h1 class="titulo-producto-relacionado"><a href="">Producto</a></h1>
+                    <h1 class="titulo-producto-relacionado"><a href="detalle-producto.html">Producto</a></h1>
+                    <span class="subtitulo-producto-realcionado">Programación física con tarjetas. App para programar.</span>
                 </div>
-            </div>
-            <div class="containers-productos-relacionados">
                 <div class="producto-relacionado">
                     <div class="imagen-producto-relacionado">
-                        <img src="../assets/images/Lego Spike Detalle 1.jpg" alt="">
+                        <img src="../assets/images/productos_2_primario.png" alt="">
                     </div>
-                    <h1 class="titulo-producto-relacionado"><a href="">Producto</a></h1>
+                    <h1 class="titulo-producto-relacionado"><a href="detalle-producto.html">Producto</a></h1>
+                    <span class="subtitulo-producto-realcionado">Programación física con tarjetas. App para programar.</span>
                 </div>
             </div>
+
         </section>
     
     </main>
@@ -67,6 +91,10 @@
 </body>
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/footer.js"></script>
-    <script src="../assets/js/forms.js"></script>
+    <script src="../assets/js/form.js"></script>
     <script src="../assets/js/translate.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('IDOfSu4uXfwVpmxIV')
+    </script>
 </html>

@@ -2,10 +2,10 @@ let  footer = ` <div class="seccion-superior-footer">
                     <img src="../assets/images/logo.png" alt="logo-pentakits">
                     <p class="texto-footer">PentaKits: Inspirando mentes, construyendo futuros.</p>
                     <div class="form-suscribir">
-                        <form action="" method="post">
-                            <input type="email" placeholder="Email" >
-                            <button class="button_suscribir" id="sub">Suscribirse</button>
-                        </form>
+                    <form action="" method="post" id="formSuscripcion">
+                        <input type="email" placeholder="Email" id="email_suscripcion" name="email_suscripcion" required>
+                        <button type="reset" id="btn-suscripcion" class="button_suscribir" onclick="sendSuscriber()">Suscribirse</button>
+                    </form>
                     </div> 
                     </div>
 

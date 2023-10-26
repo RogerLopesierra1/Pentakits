@@ -6,7 +6,7 @@ let oldLanguage = '';
 let newLanguage = '';
 
 
-// LISTA DE LENGUAJES DESDE UNA API POR MEDIO DEL METODO GET
+// OBTENEMOS UNA LISTA DE IDIOMAS DESDE UNA API (Text Translator) POR MEDIO DEL METODO GET
 
 
 //const URl_GET = 'https://text-translator2.p.rapidapi.com/getLanguages';

@@ -8,7 +8,9 @@ let header =  ` <nav class="nav">
                             <li class="list-item"><a class="link" href="contacto.html">Contacto</a></li>
                             <li class="list-item"><a class="boton_menu" href="crearKit.html">Crear Kit</a></li>
                             <li class="list-item"><a class="boton_menu" href="login.html">Iniciar Sesión</a></li>
-                            <select name="language-select" id="selectLanguage"></select>
+                            <select name="language-select" id="selectLanguage">
+                                <option>Spanish</option>
+                            </select>
                             <i class="fa-solid fa-cart-shopping"></i>
                         </ul>
                     </div>

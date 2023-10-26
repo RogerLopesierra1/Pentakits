@@ -33,13 +33,15 @@ fetch(URL_GET_DOLAR)
   .then(response => response.json())
   .then(dataDolar => {
     //console.log(dataDolar.venta)
+
     // Recorrer el array de productos y convertir los precios a dólares
     data.map(producto => {
 
+        let precioEnDolares = producto.precio / dataDolar.venta;
         //verificamos el nivel de cada producto
         if(producto.nivel == 1){
 
-            let precioEnDolares = producto.precio / dataDolar.venta;
+            
             //console.log(producto.titulo + ' USD ' + precioEnDolares);
             productosInicial = productosInicial + `<div class="container-item">
                                                         <figure>
@@ -58,7 +60,7 @@ fetch(URL_GET_DOLAR)
 
         if(producto.nivel == 2){
 
-            let precioEnDolares = producto.precio / dataDolar.venta;
+        
             //console.log(producto.titulo + ' USD ' + precioEnDolares);
             productosPrimario = productosPrimario + `<div class="container-item">
                                                         <figure>
@@ -78,7 +80,7 @@ fetch(URL_GET_DOLAR)
 
         if(producto.nivel == 3){
 
-            let precioEnDolares = producto.precio / dataDolar.venta;
+        
             //console.log(producto.titulo + ' USD ' + precioEnDolares);
             productosSecundario = productosSecundario + `<div class="container-item">
                                                             <figure>
