@@ -9,11 +9,11 @@ let newLanguage = '';
 // OBTENEMOS UNA LISTA DE IDIOMAS DESDE UNA API (Text Translator) POR MEDIO DEL METODO GET
 
 
-//const URl_GET = 'https://text-translator2.p.rapidapi.com/getLanguages';
+const URl_GET = 'https://text-translator2.p.rapidapi.com/getLanguages';
 const options_get = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '88e8ec745dmshccc4b6a8a8c860ap16a910jsn04e3d492a68b',
+		'X-RapidAPI-Key': 'bc46f3faa1mshc2145393be215f2p12778cjsn869345f4d166',
 		'X-RapidAPI-Host': 'text-translator2.p.rapidapi.com'
 	}
 

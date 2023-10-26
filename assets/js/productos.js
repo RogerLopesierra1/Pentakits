@@ -114,3 +114,27 @@ fetch(URL_GET_DOLAR)
 
 
 
+// BUSCADOR
+
+
+function buscarProducto(){
+    let inputBuscar = document.getElementById('buscar').value;
+
+    // Validación de campos vacíos
+    if (!inputBuscar) {
+        alert("Por favor, completa todos los campos.");
+        return;
+    }
+
+    // validamos que no ingrese código HTML
+    const htmlValidacion = new RegExp("<.*?>");
+    if (htmlValidacion.test(inputBuscar)) {
+        alert("No se permiten etiquetas HTML en los campos.");
+        return;
+    }
+
+    
+
+
+}
+
