@@ -62,7 +62,7 @@ Desarrollo y programación: 4 semanas
 # Recursos Externos:
    
 - Uso de Figma para la creación del diseño Web.
-- Integración de Formspree para el formulario de Contacto y Login.
+- Integración de EmailJS para el envío de formulario de Contacto y Suscripción.
 - Integración de EmailJS para envío de formulario.
 
 
