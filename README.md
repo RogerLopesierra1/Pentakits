@@ -25,7 +25,15 @@ Docentes de diferentes asignaturas que aplican la robótica en sus clases.
 
 - Contenido: Diseño tentativo de la página web (https://drive.google.com/file/d/1-nMIgJoxkOMAmYgsYLJfiaFfppH_7HbG/view)
 
-- Funcionalidades: Búsqueda de Kits, Formulario de registro y acceso a la página.
+-	Funcionalidades: Formulario de contacto, Login y Registro. 
+-	Dinamismo visual: 
+  o	Transformación: en Productos. 
+  o	Transición: Buttons y Links de Header
+
+-	API: 
+  o	Dólar: para convertir el precio de cada producto a dólares.
+  o	Idiomas: para traer una lista de idiomas para una futura traducción
+
    
 # Diseño y Scrum Master: 
 
@@ -48,14 +56,15 @@ Diseño y planificación: 2 semanas
 
 Creación de contenido: 1 semana
 
-Desarrollo y programación: 3 semanas
+Desarrollo y programación: 4 semanas
 
 
 # Recursos Externos:
    
-Uso de Figma para la creación del diseño Web.
+- Uso de Figma para la creación del diseño Web.
+- Integración de Formspree para el formulario de Contacto y Login.
+- Integración de EmailJS para envío de formulario.
 
-Integración de Formspree para el formulario de Contacto y Login.
 
 # Desarrollos Futuros y Mejoras Potenciales (Opcional)
     
