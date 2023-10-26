@@ -634,6 +634,29 @@ li .link{
 }
 
 
+.subtitulo-sede{
+    color: #1B9AAA;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.titulo-sede{
+    color: #000;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
+
     
 /*FOOTER*/
 
