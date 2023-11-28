@@ -6,7 +6,7 @@ function sendEmail() {
 
     // Validación de HTML
     const htmlValidacion = new RegExp("<.*?>");
-    if (htmlValidacion.test(name) || htmlPattern.test(email) || htmlValidacion.test(message)) {
+    if (htmlValidacion.test(name) || htmlValidacion.test(email) || htmlValidacion.test(message)) {
         alert("No se permiten etiquetas HTML en los campos.");
         return;
     }
