@@ -296,6 +296,18 @@ li .link {
     display:grid;
 }
 
+.input{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30vh;
+    height: 7.5vh;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100vh;
+    margin-top: 5vh;
+}
+
 .seccionadmin img{
     width: 25vh;
 }
