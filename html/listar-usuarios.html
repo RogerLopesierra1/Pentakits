@@ -9,18 +9,24 @@
     <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 
-<body>
-    <h1>Listado de Productos</h1>
+<div class="seccionadmin">
+    <a href="../index.html"><img src="../assets/images/logo.png" alt="logo-pentakits"></a>
+</div>
+<br>
 
-    <table> <!-- Se crea una tabla para mostrar los productos. -->
-        <thead> <!--Encabezado de la tabla con columnas para ID, descripción, cantidad, precio y acciones.-->
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Email</th>             
-                <th align="right">Tipo</th>
-                
-            </tr>
+<body>
+    <h1 class="titulo_adm">Listado de Usuarios</h1>
+    <br>
+    <section>
+        <table class="tabla_datos_adm"> <!-- Se crea una tabla para mostrar los productos. -->
+            <thead> <!--Encabezado de la tabla con columnas para ID, descripción, cantidad, precio y acciones.-->
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                    <th align="right">Tipo</th>
+
+                </tr>
             <tbody>
                 <td>Claudio</td>
                 <td>Cejas</td>
@@ -33,12 +39,16 @@
                 <td>admin@pentakits.com</td>
                 <td>Admin</td>
             </tbody>
-        </thead>
-    </table>
-
-    <div class="contenedor-centrado">
-        <a href="Admin.html">Menu principal</a>
-    </div>
-
+            </thead>
+        </table>
+    </section>
+    <br>
+    <section>
+        <div class="contenedor-centrado">
+            <a class="boton_menu_adm" href="Admin.html">Menu principal</a>
+        </div>
+    </section>
 </body>
+
 </html>
+
