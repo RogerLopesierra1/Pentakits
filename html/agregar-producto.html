@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="../assets/style/style.css">
 </head>
 
-<body>
-    <h1>Agregar Productos al Inventario</h1>
+<div class="seccionadmin">
+    <a href="../index.html"><img src="../assets/images/logo.png" alt="logo-pentakits"></a>
+</div>
+<br>
 
+<body>
+    <h1 class="titulo_adm">Agregar Productos al Inventario</h1>
 
     <!--enctype="multipart/form-data" es necesario para enviar archivos al back.-->
     <form id="formulario" enctype="multipart/form-data">
@@ -37,7 +41,7 @@
         <input type="number" id="nivel" name="nivel" required><br>
 
         <button type="submit">Agregar Producto</button>
-        <a href="Admin.html">Menu principal</a>
+        <a class="boton_menu_adm" href="Admin.html">Menu principal</a>
     </form>
 
     <script>
@@ -103,3 +107,4 @@
 </body>
 
 </html>
+
