@@ -266,15 +266,16 @@ li .link {
     font-family: 'Share Tech', sans-serif;
     color: #1B9AAA;
 }
- /*Administrador*/
 
- .boton_menu_adm {
+/*Administrador*/
+
+.boton_menu_adm {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     border: 1px solid black;
     color: black;
     background-color: #8FC1C8;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 50px;
     text-decoration: none;
@@ -285,7 +286,7 @@ li .link {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #8FC1C8; 
+    background-color: #8FC1C8;
     width: 100%;
     height: 20vh;
     top: 0px;
@@ -293,10 +294,10 @@ li .link {
     margin: 0px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
-    display:grid;
+    display: grid;
 }
 
-.input{
+.input {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -308,7 +309,7 @@ li .link {
     margin-top: 5vh;
 }
 
-.seccionadmin img{
+.seccionadmin img {
     width: 25vh;
 }
 
@@ -1332,6 +1333,23 @@ form textarea {
     color: #FFF;
     transition: all .5s;
 
+}
+
+/*Eliminar productos*/
+.titulo_adm {
+    color: #1B9AAA;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 22px;
+}
+
+.tabla_datos_adm {
+    font-size: 16px;
+    margin: 0px 340px;
+    width: 50%;
+    border-collapse: collapse;
+    color: #000000;
+    padding: 80px;
+    text-align: center;
 }
 
 /* LOGIN */
