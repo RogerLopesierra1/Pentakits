@@ -272,6 +272,7 @@ li .link {
 .boton_menu_adm {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    font-weight: bold;
     border: 1px solid black;
     color: black;
     background-color: #8FC1C8;
