@@ -49,10 +49,11 @@ class Producto:
         self.cursor.execute('''CREATE TABLE IF NOT EXISTS productos (
             id INT,
             titulo VARCHAR(255) NOT NULL,
-            descripcion INT(4) NOT NULL,
-            descripcionDetallada DECIMAL(10, 2) NOT NULL,
-            precio VARCHAR(255),
-            imagen INT(3))''')
+            descripcion VARCHAR(255) NOT NULL,
+            descripcionDetallada VARCHAR(255) NOT NULL,
+            precio DECIMAL(10, 2) NOT NULL,
+            imagen VARCHAR(255) NOT NULL,
+            nivel INT(1) NOT NULL)''')
         self.conn.commit()
 
         # Cerrar el cursor inicial y abrir uno nuevo con el parámetro dictionary=True
@@ -156,11 +157,11 @@ class Producto:
 #RUTA_DESTINO = './static/imagenes/'
 
 #Al subir al servidor, deberá utilizarse la siguiente ruta. USUARIO debe ser reemplazado por el nombre de usuario de Pythonanywhere
-RUTA_DESTINO = '/home/lph2023/mysite/static/imagenes'
+RUTA_DESTINO = '/home/PaolaCantero18/mysite/static/imagenes'
 
 # Crear una instancia de la clase Catalogo
 
-producto = Producto(host='lph2023.mysql.pythonanywhere-services.com', user='lph2023', password='Jmdbcwoehdeijd8398', database='lph2023$pentakits')
+producto = Producto(host='PaolaCantero18.mysql.pythonanywhere-services.com', user='PaolaCantero18', password='Jiuasgsvb2356', database='PaolaCantero18$Pentakits23')
 
 #--------------------------------------------------------------------
 # Listar todos los productos
@@ -306,23 +307,25 @@ if __name__ == "__main__":
 
 
 #Productos Inicial
-    agregar_producto(1,'Kit_RoboMente',50000,'Programación física con tarjetas','','Iko-inical.jpg','Inicial')
-    agregar_producto(2,'Kit_Circuitito',50000,'Programación física con tarjetas y app','','kinderbot-inicial.jpg','Inicial')
-    agregar_producto(3,'Kit_TechBot',50000,'Programación física con tarjetas y app','','Cuerpo_2.jpg.jpg','Inicial')
-    agregar_producto(4,'Kit_RoboGenio',50000,'Programación física con tarjetas y app','','producto_4_inicial.png','Inicial')
-    agregar_producto(5,'Kit_BitBuddy',50000,'Programación física con tarjetas y app','','producto_5_inicial.png','Inicial')
+#id, titulo, descripcion, descripciondetalla, precio, imagen,nivel
+    agregar_producto(1,'Kit_RoboMente','Programación física con tarjetas','',50000,'Iko-inical.jpg',1)
+    agregar_producto(2,'Kit_Circuitito','Programación física con tarjetas y app','',50000,'kinderbot-inicial.jpg',1)
+    agregar_producto(3,'Kit_TechBot','Programación física con tarjetas y app','',50000,'Cuerpo_2.jpg.jpg','1')
+    agregar_producto(4,'Kit_RoboGenio','Programación física con tarjetas y app','',50000,'producto_4_inicial.png',1)
+    agregar_producto(5,'Kit_BitBuddy','Programación física con tarjetas y app','',50000,'producto_5_inicial.png',1)
     
+
 #Productos Primaria
-    agregar_producto(6,'Kit_MakeBlock',50000,'Kit STEAM de robótica basado en Arduino','','MakeBlock_Portada.jpg','Primario')
-    agregar_producto(7,'Kit_RoboPro',88000,'Placa base basada en Arduino Mega 2560 con 10 puertos de expansión','','productos_2_primario.png','Primario')
-    agregar_producto(8,'Kit_mBot_Ranger',98000,'Programación física con tarjetas. App para programar.','','producto_3_primario.png','Primario')
-    agregar_producto(9,'Kit_CubeBot',99000,'Kit con ladrillo inteligente R2','producto_4_primario.png','','Primario')
-    agregar_producto(10,'Kit_501',150000,'Kit con ladrillo inteligente R8','producto_5_primario.png','','Primario')
+    agregar_producto(6,'Kit_MakeBlock','Kit STEAM de robótica basado en Arduino','',50000,'MakeBlock_Portada.jpg',2)
+    agregar_producto(7,'Kit_RoboPro','Placa base basada en Arduino Mega 2560 con 10 puertos de expansión','',88000,'productos_2_primario.png',2)
+    agregar_producto(8,'Kit_mBot_Ranger','Programación física con tarjetas. App para programar.','',98000,'producto_3_primario.png',2)
+    agregar_producto(9,'Kit_CubeBot','Kit con ladrillo inteligente R2','producto_4_primario.png','',99000,2)
+    agregar_producto(10,'Kit_501','Kit con ladrillo inteligente R8','producto_5_primario.png','',150000,2)
     
 #Productos Secundaria
-    agregar_producto(11,'Kit_Arduino_Uno',50000,'Kit STEAM de robótica basado en Arduino','ArduinoPortada 1.png','','Secundario')
-    agregar_producto(12,'Kit_504,50000',88000,'Placa base basada en Arduino Mega 2560 con 10 puertos de expansión','','Mis Ladrillos Kit 504 Portada.jpg','Secundario')
-    agregar_producto(13,'Kit_OKI_Plus',98000,'Programación física con tarjetas. App para programar','', 'Lego Spike Expansion Detalle 1.jpg','Secundario')
-    agregar_producto(14,'Kit_RoboSphare',99000,'Programación física con tarjetas. App para programar','','Lego Spike Detalle 1.jpg','Secundario')
-    agregar_producto(15,'Kit_MechMaster',150000,'Programación física con tarjetas. App para programar','','Cuerpo 3.png','Secundario')
+    agregar_producto(11,'Kit_Arduino_Uno','Kit STEAM de robótica basado en Arduino',"",50000,'ArduinoPortada 1.png',3)
+    agregar_producto(12,'Kit_504','Placa base basada en Arduino Mega 2560 con 10 puertos de expansión','',88000,'Mis Ladrillos Kit 504 Portada.jpg',3)
+    agregar_producto(13,'Kit_OKI_Plus','Programación física con tarjetas. App para programar','',98000, 'Lego Spike Expansion Detalle 1.jpg',3)
+    agregar_producto(14,'Kit_RoboSphare','Programación física con tarjetas. App para programar','',99000,'Lego Spike Detalle 1.jpg',3)
+    agregar_producto(15,'Kit_MechMaster','Programación física con tarjetas. App para programar','',150000,'Cuerpo 3.png',3)
     
